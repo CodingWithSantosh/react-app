@@ -7,7 +7,7 @@ const Portfolio = () => {
   return (
     <div className="container-fluid portfolio">
       <div className="row d-flex justify-content-center">
-        <div className="col-5">
+        <div className="col-sm-5">
           <div className="h4 text-center text-light pt-5 pb-3">
             <span className="border-bottom border-3 text-uppercase text-warning">
               Portfolio Gallery
@@ -22,11 +22,11 @@ const Portfolio = () => {
       </div>
       <div className="row">
         <div className="col d-flex justify-content-center my-5">
-          <ul className="tabBtns d-flex">
+          <ul className="tabBtns d-flex flex-sm-nowrap flex-wrap">
             <li>
               <Link
                 to="/"
-                className="tabButton shadow d-block rounded-pill text-center text-light text-decoration-none text-uppercase mx-2"
+                className="tabButton my-sm-0 my-2 shadow d-block rounded-pill text-center text-light text-decoration-none text-uppercase mx-2"
               >
                 PHP
               </Link>
@@ -34,7 +34,7 @@ const Portfolio = () => {
             <li>
               <Link
                 to="/"
-                className="tabButton shadow d-block rounded-pill text-center text-light text-decoration-none text-uppercase mx-2"
+                className="tabButton my-sm-0 my-2 shadow d-block rounded-pill text-center text-light text-decoration-none text-uppercase mx-2"
               >
                 JAVASCRIPT
               </Link>
@@ -42,7 +42,7 @@ const Portfolio = () => {
             <li>
               <Link
                 to="/"
-                className="tabButton shadow d-block rounded-pill text-center text-light text-decoration-none text-uppercase mx-2"
+                className="tabButton my-sm-0 my-2 shadow d-block rounded-pill text-center text-light text-decoration-none text-uppercase mx-2"
               >
                 react
               </Link>
@@ -50,7 +50,7 @@ const Portfolio = () => {
             <li>
               <Link
                 to="/"
-                className="tabButton shadow d-block rounded-pill text-center text-light text-decoration-none text-uppercase mx-2"
+                className="tabButton my-sm-0 my-2 shadow d-block rounded-pill text-center text-light text-decoration-none text-uppercase mx-2"
               >
                 node
               </Link>
@@ -58,7 +58,7 @@ const Portfolio = () => {
             <li>
               <Link
                 to="/"
-                className="tabButton shadow d-block rounded-pill text-center text-light text-decoration-none text-uppercase mx-2"
+                className="tabButton my-sm-0 my-2 shadow d-block rounded-pill text-center text-light text-decoration-none text-uppercase mx-2"
               >
                 CSS
               </Link>
@@ -67,7 +67,7 @@ const Portfolio = () => {
         </div>
       </div>
       <div className="container">
-        <div className="row row-cols-4 text-light d-flex justify-content-center">
+        <div className="row row-cols-sm-4 row-cols-1 text-light d-flex justify-content-center">
           {galleryData.map((data) => {
             return (
               <ProjectItem id={data.id} name={data.name} image={data.image} />

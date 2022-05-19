@@ -14,7 +14,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="row my-5">
-          <div className="col-4 d-flex justify-content-center">
+          <div className="col-sm-4 my-sm-0 my-2 d-flex justify-content-center">
             <div className="card bg-warning contactCard rounded-0 border-0 p-0 px-4 py-2">
               <div className="card-header p-0 bg-transparent border-0 px-3">
                 <i class="fa-solid fa-phone fs-5 mx-2"></i>
@@ -25,7 +25,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="col-4 d-flex justify-content-center">
+          <div className="col-sm-4 my-sm-0 my-2 d-flex justify-content-center">
             <div className="card bg-warning contactCard rounded-0 border-0 p-0 px-4 py-2">
               <div className="card-header p-0 bg-transparent border-0 px-3">
                 <i class="fa-solid fa-envelope fs-5 mx-2"></i>
@@ -36,7 +36,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="col-4 d-flex justify-content-center">
+          <div className="col-sm-4 my-sm-0 my-2 d-flex justify-content-center">
             <div className="card bg-warning contactCard rounded-0 border-0 p-0 px-4 py-2">
               <div className="card-header p-0 bg-transparent border-0 px-3">
                 <i class="fa-solid fa-location-dot fs-5 mx-2"></i>

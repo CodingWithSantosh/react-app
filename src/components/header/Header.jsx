@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
       <div className="container-fluid topHeader">
-        <div className="container py-2 d-flex align-items-center justify-content-between">
+        <div className="container py-2 d-sm-flex align-items-center justify-content-between">
           <div className="logo">
             <Link to="/" className="nav-link text-light">
               sk<span className="logoDot">.</span>dev

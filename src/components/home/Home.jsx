@@ -6,14 +6,14 @@ const Home = () => {
   return (
     <>
       <div className="container-fluid home">
-        <div className="container pt-5">
-          <div className="row pt-5">
-            <div className="col-7">
+        <div className="container pt-sm-5">
+          <div className="row pt-sm-5">
+            <div className="col-sm-7">
               <div className="card textCard text-light border-0 bg-transparent">
                 <div className="h1">
                   <span className="name">This is santosh kumar</span> <br />
                   <span className="text-light fw-bold">I'm </span>
-                  <span className="h1 text-warning fw-bold">
+                  <span className="h1 text-warning fw-bold devclass">
                     fullstack Developer
                   </span>
                 </div>
@@ -49,7 +49,7 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="col-5 d-flex flex-column align-items-center">
+            <div className="col-sm-5 order-sm-1 d-flex flex-column align-items-center">
               <div className="card shadow imageCard bg-transparent">
                 <img
                   src="images\santoshVersion.png"

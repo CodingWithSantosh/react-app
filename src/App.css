@@ -323,3 +323,40 @@
   height: 100%;
   object-fit: cover;
 }
+
+@media screen and (max-width: 425px){
+  .name{
+    font-size: 1em;
+  }
+  .devclass{
+    font-size: 0.9em;
+  }
+  .links{
+    font-size: 0.7em;
+  }
+  .navList{
+    padding-left: inherit;
+  }
+  .aboutImageCard{
+    width: 300px;
+    height: 300px;
+  }
+  .imageCard{
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .links{
+    font-size: 0.6em;
+  }
+  .aboutImageCard{
+    width: 250px;
+    height: 250px;
+  }
+  .imageCard{
+    width: 250px;
+    height: 250px;
+  }
+}

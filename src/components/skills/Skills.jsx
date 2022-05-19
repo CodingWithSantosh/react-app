@@ -7,7 +7,7 @@ const Skills = () => {
     <div className="container-fluid skills">
       <div className="container">
         <div className="row d-flex justify-content-center">
-          <div className="col-5">
+          <div className="col-sm-5">
             <div className="h2 text-center text-light pt-5 pb-3">
               <span className="text-capitalize text-warning">Skills</span>
             </div>
